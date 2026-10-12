@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.5.2](https://github.com/modelcontextprotocol/rust-sdk/compare/rmcp-v3.5.1...rmcp-v3.5.2) - 2026-10-12
+
+### Fixed
+
+- *(streamable-http-server)* release the session map lock before waiting on a session ([#1323](https://github.com/modelcontextprotocol/rust-sdk/pull/1323))
+- *(rmcp)* gate client- and server-only helpers behind their features ([#1329](https://github.com/modelcontextprotocol/rust-sdk/pull/1329))
+- cancel pending request tokens after transport EOF ([#1333](https://github.com/modelcontextprotocol/rust-sdk/pull/1333))
+- *(rmcp)* import base64-only prompt content types under the feature ([#1314](https://github.com/modelcontextprotocol/rust-sdk/pull/1314))
+
+### Other
+
+- combine AI issue triage with a maintainer rotation as the responsible reviewer ([#1260](https://github.com/modelcontextprotocol/rust-sdk/pull/1260))
+
 ## [3.5.1](https://github.com/modelcontextprotocol/rust-sdk/compare/rmcp-v3.5.0...rmcp-v3.5.1) - 2026-10-05
 
 ### Fixed
